@@ -1,23 +1,98 @@
-A Lista de Compras Angular é um projeto simples desenvolvido em Angular, que permite aos usuários criar e gerenciar listas de compras de forma prática e eficiente. O projeto utiliza dados locais para armazenar as listas e o LocalStorage para persistir os dados localmente no navegador do usuário.
+# 🛒 Lista de Compras - Angular
 
-Recursos Principais:
+Uma aplicação simples de **lista de compras** feita com Angular. Permite adicionar, editar, remover e marcar itens como comprados, com dados salvos no `localStorage`.
 
-Criação de Listas: Os usuários podem criar novas listas de compras, inserindo os itens desejados e suas respectivas quantidades.
-Edição e Exclusão de Itens: É possível editar os itens das listas, alterando suas quantidades ou removendo-os, conforme necessário.
-Armazenamento Local: O projeto utiliza o LocalStorage para armazenar as listas de compras localmente no navegador do usuário, permitindo que as informações sejam mantidas mesmo após o fechamento da aplicação.
-Interface Intuitiva: A interface do projeto é simples e intuitiva, facilitando a navegação e o uso por parte dos usuários.
-Objetivo do Projeto:
+---
 
-O principal objetivo da Lista de Compras Angular é fornecer uma ferramenta simples e eficiente para auxiliar os usuários na organização de suas compras, garantindo que não se esqueçam de nenhum item importante.
+## ✨ Funcionalidades
 
-Tecnologias Utilizadas:
+- ✅ Adicionar novos itens
+- 🖉 Editar itens existentes
+- ❌ Excluir itens da lista
+- ✔️ Marcar itens como comprados
+- 💾 Salvamento automático no `localStorage`
 
-Angular,
-TypeScript,
-HTML,
-CSS,
-LocalStorage,
+---
 
-Contribuições:
+## 🚀 Tecnologias Utilizadas
 
-A Lista de Compras Angular é um projeto da Alura.
+- Angular
+- TypeScript
+- HTML5 / CSS3
+
+---
+
+## 🛠️ Pré-requisitos
+
+- Node.js instalado (v18+ recomendado)
+- Angular CLI (globalmente):  
+  `npm install -g @angular/cli`
+
+---
+
+## ▶️ Como Rodar o Projeto
+
+1. Clone o repositório:
+
+   `git clone https://github.com/danilosamba/Lista_Angular.git`
+
+2. Acesse a pasta do projeto:
+
+   `cd Lista_Angular`
+
+3. Instale as dependências:
+
+   `npm install`
+
+4. Rode o servidor de desenvolvimento:
+
+   `ng serve`
+
+5. Abra no navegador:
+
+   [http://localhost:4200](http://localhost:4200)
+
+---
+
+## 🧩 Estrutura do Projeto
+```
+src/
+├── app/
+│ ├── components/ → Componentes reutilizáveis
+│ ├── services/ → Regras de negócio e persistência
+│ └── app.module.ts → Módulo principal do Angular
+├── assets/
+└── index.html / styles.css
+```
+
+---
+
+## 💡 Melhorias Futuras
+
+- Integração com backend (API REST)
+- Formulários reativos com validação
+- Responsividade com Tailwind CSS ou Bootstrap
+- Autenticação de usuários
+- Testes unitários
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas!
+
+1. Faça um fork
+2. Crie uma branch com sua feature:  
+   `git checkout -b minha-feature`
+3. Commit suas alterações:  
+   `git commit -m 'feat: minha feature'`
+4. Dê push para o seu fork:  
+   `git push origin minha-feature`
+5. Abra um Pull Request
+
+---
+
+## 📄 Licença
+
+não se aplica
+
